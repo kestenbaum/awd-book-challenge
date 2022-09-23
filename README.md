@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The customer is a library focused on IT books in the fictitious city of Foobar town. The library wants to make its books available online and give customers the possibility to save their favorite books they like on a favorite list. It is your task to create this app for the customer.
+The customer is a library focused on IT books in the fictitious city of Foobar town. The library wants to make its books available online to give customers the possibility to save their favorite books in a list. It is your task to create this app for the customer.
 
 ## Given
 
