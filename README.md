@@ -8,7 +8,7 @@ The customer is a library focused on IT books in the fictitious city of Foobar t
 
 ### Rest-API
 
-The REST-API is available at https://www.npmjs.com/package/bookmonkey-api. Follow the instructions to start the api server on your local machine.
+The REST-API is available at https://www.npmjs.com/package/bookmonkey-api. Follow the instructions to start the api server on your local machine. Or use `npx bookmonkey-api`
 
 ### Templates
 
@@ -44,4 +44,4 @@ The templates for the project are already pre-designed. You'll find them in the 
 
 - Avoid to use a component library to solve the problems
 - Use typescript
-- Project should use create-vue, choose the configuration that fits best for you
+- Project should use plain js/ts for dom manipulation.
