@@ -1,0 +1,32 @@
+{
+  "name": "awd-book-challenge",
+  "version": "1.0.0",
+  "description": "The customer is a library focused on IT books in the fictitious city of Foobar town. The library wants to make its books available online to give customers the possibility to save their favorite books in a list. It is your task to create this app for the customer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "watch:ts": "tsc -w",
+    "start": "node dist/index.js",
+    "dev": "concurrently \"npm:watch:ts\" \"nodemon --watch dist --exec node dist/index.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kestenbaum/awd-book-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/kestenbaum/awd-book-challenge/issues"
+  },
+  "homepage": "https://github.com/kestenbaum/awd-book-challenge#readme",
+  "devDependencies": {
+    "@types/node": "^24.9.2",
+    "concurrently": "^9.2.1",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
