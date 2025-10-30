@@ -1,4 +1,5 @@
 interface IBook {
+    favorite?: boolean;
     title: string,
     subtitle: string,
     isbn: string,
