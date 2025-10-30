@@ -8,7 +8,8 @@
     "build": "tsc",
     "watch:ts": "tsc -w",
     "start": "node dist/index.js",
-    "dev": "concurrently \"npm:watch:ts\" \"nodemon --watch dist --exec node dist/index.js\""
+    "dev": "concurrently \"npm:watch:ts\" \"nodemon --watch dist --exec node dist/index.js\"",
+    "serve": "bookmonkey-api"
   },
   "repository": {
     "type": "git",
@@ -28,5 +29,8 @@
     "nodemon": "^3.1.10",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "bookmonkey-api": "^3.2.0"
   }
 }
